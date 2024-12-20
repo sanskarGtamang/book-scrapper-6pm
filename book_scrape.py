@@ -4,8 +4,32 @@ import sqlite3
 
 URL ="http://books.toscrape.com/" 
 
-# git config --global user.name "Sanskar Tamang"
+# install git
+# create repository in github
+
+# go to git bash
+# git config --global user.name "sanskarGtamang"
 # git config --global user.email "sanskar.211330@ncit.edu.np"
+
+# git init
+# git status => if you want to check what are the status of files
+# git diff => if you want to check what are the changes
+# git add .
+# git commit -m "Your message"
+# copy paste git code from github
+
+# 1. git add .
+# 2. git commit -m "Your message"
+# 3. git push origin
+
+# git config --global user.name "sanskarGtamang"
+# git config --global user.email "sanskar.211330@ncit.edu.np"
+# This is git tutorial
+no_of_pages = 50
+
+page = 1
+URL = f"https://books.toscrape.com/catalogue/page-{page}.html"
+
 
 def insert_book(title, currency, price):
     conn = sqlite3.connect("books.sqlite3")
