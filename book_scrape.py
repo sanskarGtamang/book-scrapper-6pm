@@ -25,7 +25,7 @@ URL ="http://books.toscrape.com/"
 # git config --global user.name "sanskarGtamang"
 # git config --global user.email "sanskar.211330@ncit.edu.np"
 # This is git tutorial
-no_of_pages = 50
+NO_OF_PAGES = 50
 
 page = 1
 URL = f"https://books.toscrape.com/catalogue/page-{page}.html"
